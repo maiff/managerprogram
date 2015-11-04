@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>欢迎！</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!--testtesttesttesttesttesttesttesttesttesttesttest-->
+    <style type="text/css">
+	body{
+		padding-top: 50px;
+	}
+	#right-sidebar{
+		background: #ddd;
+		position: fixed;
+            top: 51px;
+            bottom: 0;
+            left: 0;
+
+	}
+	.right-part{
+		margin-top:-25px;
+	}
+	#first-panel{
+		padding-top: 10px;
+		margin-left: -15px;
+	}
+	.test{
+		height: 20px;
+		line-height: 3px;
+	}
+	.right-p{
+		margin-top: 10px;
+		height: 229px;
+	}
+	#left-table{
+		margin-left: -15px;
+	}
+	.bottom-p{
+		margin-top: -10px;
+	}
+	.ppp{
+		padding:0 10px 0;
+	}
+
+    </style>
+</head>
+<body>
+	<!--begin-->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">某管理系统</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">首页<span class="sr-only">(current)</span></a></li>
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">功能<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">信息建立</a></li>
+            <li><a href="#">消息查询</a></li>
+            <li><a href="#">信息管理</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">设置</a></li>
+     
+          </ul>
+        </li>
+        <li><a href="#">帮助</a></li>
+      </ul>
+
+      <form class="navbar-form navbar-left navbar-right" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="用户名...">
+          <input type="password" class="form-control" placeholder="密码...">
+        </div>
+        <button type="submit" class="btn btn-default">登录</button>
+      </form>
+     
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!--end-->
+
+ <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 sidebar" id="right-sidebar">
+                <ul class="nav nav-sidebar">
+                    <li class="active"><a href="#">首页</a></li>
+                    <li><a href="#">信息建立</a></li>
+                    <li><a href="#">信息查询</a></li>
+                    <li><a href="#">信息管理</a></li>
+                    <li><a href="#">设置</a></li>
+                    <li><a href="#">帮助</a></li>
+                </ul>
+            </div>
+            <div class="col-md-10 col-md-offset-2 right-part">
+                <div class="page-header">
+                    <h2>管理控制台</h2>
+
+                </div>
+                <div class="button-group">
+                <a class="btn btn-default" href="#" role="button">操作一</a>
+                <a class="btn btn-primary" href="#" role="button">操作二</a>
+                <a class="btn btn-success" href="#" role="button">操作三</a>
+                <a class="btn btn-info" href="#" role="button">操作四</a>
+                <a class="btn btn-warning" href="#" role="button">操作五</a>
+                <a class="btn btn-danger" href="#" role="button">操作六</a>
+            	</div>
+            	<div class=" col-md-6" id="first-panel">
+            		<div class="panel panel-primary">
+            		<div class="panel-heading">最新提醒</div>
+  					<div class="panel-body">
+   					<div class="alert alert-success test" role="alert">
+					<strong>提示</strong>：你的订单已通过
+					</div>
+					<div class="alert alert-danger test" role="alert">
+					<strong>提示</strong>：没通过
+					</div>
+					<div class="alert alert-warning test" role="alert">
+					<strong>提示</strong>：可能没通过
+					</div>
+ 					 </div>
+            	</div>
+             </div>
+          
+           <div class="col-md-6">
+
+<div class="panel panel-primary right-p">
+<div class="panel-heading">
+<h3 class="panel-title">我的任务</h3>
+</div>
+<div class="panel-body">
+<ul class="nav nav-pills nav-stacked" role="tablist">
+<li role="presentation">
+<a href="#" class="alert alert-info">
+<span class="badge pull-right">42</span>
+通过
+</a>
+</li>
+<li role="presentation">
+<a href="#" class="alert alert-info">
+<span class="badge pull-right">20</span>
+没通过
+</a>
+</li>
+<li role="presentation">
+<a href="#" class="alert alert-info">
+<span class="badge pull-right">10</span>
+待审批
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+ 
+ <div class="col-md-6" id="left-table">
+<div class="panel panel-primary">
+	<!-- Default panel contents -->
+ <div class="panel-heading ">最新订单</div>
+
+  	<table class="table table-striped">
+	<thead>
+	<tr >
+		<td >#</td>
+  		<td >产品</td>
+  		<td >数量</td>
+  		<td >总金额</td>
+  		<td >业务员</td>
+	</tr>
+	</thead>
+	<tbody>
+	<tr >
+		<td >1</td>
+  		<td >大钻戒</td>
+  		<td >10</td>
+  		<td >8000</td>
+  		<td >王晓佳</td>
+	</tr>
+	<tr >
+		<td >2</td>
+  		<td >大钻戒</td>
+  		<td >10</td>
+  		<td >8000</td>
+  		<td >王晓佳</td>
+	</tr>
+	<tr >
+		<td >3</td>
+  		<td >大钻戒</td>
+  		<td >10</td>
+  		<td >8000</td>
+  		<td >王晓佳</td>
+	</tr>
+	</tbody>
+	
+    </table>
+</div>
+</div>
+
+<div class="col-md-6 ">
+<div class="panel panel-primary ">
+		<div class="panel-heading">
+		<h3 class="panel-title">我的任务</h3>
+		</div>
+	<div class="ppp">
+			<h3><span class="label label-primary" >某个工程</span></h3>
+			<div class="progress">
+  			<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+ 			</div>
+ 			</div>
+ 
+ 				<div class="bottom-p">
+  				<h3><span class="label label-danger" >某个工程</span></h3>
+			<div class="progress">
+  			<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+			 </div>
+			</div>
+			</div>
+			</div>
+
+
+</div>
+</div>
+
+			
+           
+	</div>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
